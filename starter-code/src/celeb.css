@@ -1,0 +1,54 @@
+.celebrity {
+    width: 80%;
+    height: 10vh;
+    padding: 2%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.celebrity img, .picture-header  {
+    box-sizing: content-box;
+    width:7%;
+}
+
+.picture-header {
+    width: 15%;
+    font-size: 24px;
+}
+.text-container {
+    font-size: 24px;
+    width: 15%;
+    text-align: left;
+}
+
+.spacer {
+    width: 15%;
+}
+.celebrity button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-right: 0;
+  }
+  
+  .celebrity  button:hover {background-color: #3e8e41}
+  
+  .celebrity  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .delete-button-container{
+    width: 15%;
+  }
